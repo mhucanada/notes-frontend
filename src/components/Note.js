@@ -1,5 +1,6 @@
 import React from 'react'
 
+//react arrow function component
 const Note = ({ note, toggleImportance }) => {
   const label = note.important
     ? 'make not important' : 'make important'
